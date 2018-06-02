@@ -1,0 +1,33 @@
+[debug] [2018-06-02T02:47:30.921Z] ----------------------------------------------------------------------
+[debug] [2018-06-02T02:47:30.924Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marti\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-06-02T02:47:30.924Z] CLI Version:   3.18.5
+[debug] [2018-06-02T02:47:30.924Z] Platform:      win32
+[debug] [2018-06-02T02:47:30.924Z] Node Version:  v9.4.0
+[debug] [2018-06-02T02:47:30.925Z] Time:          Fri Jun 01 2018 19:47:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-02T02:47:30.925Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-02T02:47:30.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-02T02:47:30.936Z] > authorizing via signed-in user
+[debug] [2018-06-02T02:47:30.937Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/not-instant-camera  
+  
+ Fri Jun 01 2018 19:47:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-02T02:47:31.677Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-02T02:47:31.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/not-instant-camera/tokens  
+  
+ Fri Jun 01 2018 19:47:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-02T02:47:32.988Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-02T02:47:32.989Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/not-instant-camera  
+  
+ Fri Jun 01 2018 19:47:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-02T02:47:33.997Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\marti\Documents\GitHub\uncannycameraweb'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-06-02T02:47:34.007Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/572163600234/clients/_:getWebAppConfig  
+  
+ Fri Jun 01 2018 19:47:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-06-02T02:47:35.342Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Uncanny Gallery",
+  "launch_path": "/index.html",
+  "description": "Browse the photos uploaded with Uncanny Camera",
+  "developer": {
+    "name": "Martin Strauss",
+    "url": "https://www.martinstrauss.id.au"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Uncanny Gallery",
+      "description": "Browse the photos uploaded with Uncanny Camera"
+    }
+  }
+}
